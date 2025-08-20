@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+}
+
+video, img {
+  width: 300px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  margin: 10px 0;
+}
+
+.controls {
+  margin: 15px 0;
+}
+
+button, .btn {
+  margin: 5px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #007bff;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+}
+
+button:disabled, .btn[disabled] {
+  background: #aaa;
+  cursor: not-allowed;
+}
